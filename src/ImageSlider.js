@@ -1,7 +1,7 @@
 // your ImageSlider code here!
 import React from 'react';
 class ImageSlider extends React.Component {
-    constructor(){
+    constructor() {
     super ()
 
     this.state = {
@@ -11,7 +11,7 @@ class ImageSlider extends React.Component {
 
   render() {
       return (
-        <h1> I am on slide {this.state.currentSlideIndex}/> </h1>
+        <h1>I am on slide {this.state.currentSlideIndex}</h1>
       )
     }
 }
